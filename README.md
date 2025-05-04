@@ -19,4 +19,4 @@ This repository hosts a fine-tuned **LoRA (Low-Rank Adaptation)** model based on
 ├── Finetune_LoRA_Model.ipynb                # LoRA fine-tuning script
 ├── Test_Finetuned_LoRA_Model.ipynb          # Inference script to test the model
 ├── README.md                                # Documentation
-└── lora_weights/                            # Folder containing saved weights
+└── lora_weights/                            # Folder containing saved weight
