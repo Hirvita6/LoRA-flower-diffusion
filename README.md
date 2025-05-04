@@ -46,3 +46,11 @@ This notebook allows you to:
 ├── Test_Finetuned_LoRA_Model.ipynb    # Inference script to test the model
 ├── README.md                          # Documentation
 └── lora_weights/                      # Folder containing saved weights
+
+
+## 🌸 Example Outputs
+
+<p float="left">
+  <img src="examples/1img.png" width="300"/>
+  <img src="examples/2img.png" width="300"/>
+</p>
