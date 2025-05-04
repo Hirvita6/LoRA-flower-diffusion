@@ -15,8 +15,34 @@ This repository hosts a fine-tuned **LoRA (Low-Rank Adaptation)** model based on
 
 ## 🏗️ How to Use
 
+### 🚀 Fine-Tune the Model
+
+Run the notebook: [`Finetune_LoRA_Model.ipynb`](./Finetune_LoRA_Model.ipynb)
+
+This notebook includes:
+- Loading the base Stable Diffusion model
+- Preparing the flower dataset
+- Applying LoRA fine-tuning
+- Saving the trained weights into the `lora_weights/` directory
+
+---
+
+### 🧪 Test the Fine-Tuned Model
+
+Run the notebook: [`Test_Finetuned_LoRA_Model.ipynb`](./Test_Finetuned_LoRA_Model.ipynb)
+
+This notebook allows you to:
+- Load the fine-tuned LoRA weights
+- Generate images from custom flower prompts
+- Visualize the output directly in the notebook
+
+---
+
+## 📂 Project Structure
+
+```plaintext
 .
-├── Finetune_LoRA_Model.ipynb                # LoRA fine-tuning script
-├── Test_Finetuned_LoRA_Model.ipynb          # Inference script to test the model
-├── README.md                                # Documentation
-└── lora_weights/                            # Folder containing saved weight
+├── Finetune_LoRA_Model.ipynb          # LoRA fine-tuning script
+├── Test_Finetuned_LoRA_Model.ipynb    # Inference script to test the model
+├── README.md                          # Documentation
+└── lora_weights/                      # Folder containing saved weights
